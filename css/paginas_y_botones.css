@@ -1,0 +1,489 @@
+/* Animación de volteo de página */
+@keyframes flipPage {
+    0% {
+        transform: rotateY(-0deg);
+    }
+    50% {
+        transform: rotateY(-90deg);
+    }
+    100% {
+        transform: rotateY(-180deg);
+    }
+}
+
+/* Imagenes de la zapateria */
+
+.face-front-1 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0002.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+
+.face-front-2 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0003.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
+.face-front-3 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0004.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-4 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0005.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-5 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0006.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-6 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0007.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-7 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0008.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-8 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0009.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-9 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0010.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-10 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0011.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-11 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0012.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.face-front-12 {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0013.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/* Estilos para los botones individuales */
+.btn {
+    position: absolute;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    top: 105px;
+    left: 380px;
+}
+
+.btn-2 {
+    top: 295px;
+    left: 380px;
+}
+
+.btn-3 {
+    top: 495px;
+    left: 380px;
+}
+
+
+
+.btn-4 {
+    top: 120px;
+    left: 380px;
+}
+
+.btn-5 {
+    top: 260px;
+    left: 630px;
+}
+
+.btn-6 {
+    top: 480px;
+    left: 400px;
+}
+
+
+
+.btn-7 {
+    top: 105px;
+    left: 380px;
+}
+
+.btn-8 {
+    top: 190px;
+    left: 700px;
+}
+
+.btn-9 {
+    top: 380px;
+    left: 380px;
+}
+
+.btn-10 {
+    top: 490px;
+    left: 700px;
+}
+
+
+
+.btn-11 {
+    top: 105px;
+    left: 650px;
+}
+
+.btn-12 {
+    top: 295px;
+    left: 650px;
+}
+
+.btn-13 {
+    top: 495px;
+    left: 650px;
+}
+
+
+
+.btn-14 {
+    top: 100px;
+    left: 380px;
+}
+
+.btn-15 {
+    top: 295px;
+    left: 390px;
+}
+
+.btn-16 {
+    top: 490px;
+    left: 400px;
+}
+
+
+
+.btn-17 {
+    top: 145px;
+    left: 380px;
+}
+
+.btn-18 {
+    top: 220px;
+    left: 650px;
+}
+
+.btn-19 {
+    top: 445px;
+    left: 380px;
+}
+
+
+
+.btn-20 {
+    top: 280px;
+    left: 700px;
+}
+
+.btn-21 {
+    top: 185px;
+    left: 380px;
+}
+
+.btn-22 {
+    top: 475px;
+    left: 380px;
+}
+
+
+
+.btn-23 {
+    top: 480px;
+    left: 300px;
+}
+
+.btn-24 {
+    top: 90px;
+    left: 300px;
+}
+
+.btn-25 {
+    top: 280px;
+    left: 300px;
+}
+
+
+
+.btn-26 {
+    top: 480px;
+    left: 380px;
+}
+
+.btn-27 {
+    top: 105px;
+    left: 380px;
+}
+
+.btn-28 {
+    top: 290px;
+    left: 700px;
+}
+
+.btn-29 {
+    top: 280px;
+    left: 380px;
+}
+
+.btn-30 {
+    top: 520px;
+    left: 700px;
+}
+
+
+
+.btn-31 {
+    top: 120px;
+    left: 480px;
+}
+
+.btn-32 {
+    top: 400px;
+    left: 650px;
+}
+
+
+.btn-33 {
+    top: 160px;
+    left: 370px;
+}
+
+.btn-34 {
+    top: 225px;
+    left: 610px;
+}
+
+.btn-35 {
+    top: 440px;
+    left: 390px;
+}
+
+
+
+.btn:hover {
+    background-color: #007767;
+}
+/* Ajustes para el flipbook */
+
+.flip {
+    animation: flipPage 2s forwards;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 100vw;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .book-content, .portada, .contraportada, .npp {
+        width: 90vw;  /* Ajuste al 90% del ancho del viewport */
+        height: auto;  /* Ajuste automático de la altura */
+        background-size: contain;  /* Ajuste del tamaño de fondo */
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .portada, .contraportada {
+        border-radius: 3px;
+        margin-bottom: 20px; /* Espacio entre las páginas */
+    }
+
+    .btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+/* Ajustes específicos para dispositivos de alta resolución como el iPhone 14 Pro Max */
+@media (max-width: 430px) {
+    .book-content, .portada, .contraportada,
+    .face-front-1, .face-front-2, .face-front-3, 
+    .face-front-4, .face-front-5, .face-front-6, 
+    .face-front-7, .face-front-8, .face-front-9, 
+    .face-front-10, .face-front-11, .face-front-12 {
+        width: 85vw;  /* Ajuste al 85% del ancho del viewport */
+    }
+
+    .btn {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+
+}
+.container {
+    width: 100vw; /* Ancho al 100% del viewport */
+    height: 100vh; /* Alto al 100% del viewport */
+    max-width: 100%; /* Ancho máximo igual al ancho del viewport */
+    max-height: 100%; /* Alto máximo igual al alto del viewport */
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.book-content {
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    perspective: 1000px;
+	top: -0px;
+	z-index: 1;
+    transition: transform 1s; /* Agrega una transición suave */
+}
+
+
+.book-content.opened {
+    transform: translateY(0%);
+}
+
+
+.book {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    transform-style: preserve-3d;
+    transform-origin: left;
+    backface-visibility: hidden;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.book.middle {
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.portada, .contraportada {
+    width: 100%;
+    height: 100%;
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portada img, .contraportada img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portada {
+    background-image: url("/ilovepdf_pages-to-jpg/HV-CATALO-DIGITAL_310723\ \(1\)_page-0001.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 827px;  /* Ajuste al tamaño deseado */
+    height: 638px; /* Ajuste al tamaño deseado */
+    position: relative;
+    box-shadow: inset 10px 19px 25px -7px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}

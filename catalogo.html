@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Catalogo</title>
+    <meta name="description" content="Explore el catálogo digital de H.V. Depositos de Calzado. Encuentra los mejores zapatos y agrégalos a tu carrito de compras.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/paginas_y_botones.css">
+    <link rel="stylesheet" href="./css/carrito.css">
+</head>
+<body>
+<div id="contenedor-principal">
+    <div class="pagina-principal" id="main">
+        <div class="contenido-principal">
+            <ul class="nav">
+                <li class="dropdown">
+                    <svg width="78" height="78" viewBox="0 0 512 512" style="color:currentColor" xmlns="http://www.w3.org/2000/svg" class="h-full w-full" aria-label="Menu Icon">
+                        <rect width="512" height="512" x="30" y="0" rx="30" fill="transparent" stroke="transparent" stroke-width="0" stroke-opacity="100%" paint-order="stroke"></rect>
+                        <svg width="256px" height="256px" viewBox="0 0 14 14" fill="currentColor" x="128" y="128" role="img" style="display:inline-block;vertical-align:middle" xmlns="http://www.w3.org/2000/svg" aria-label="Menu Lines">
+                            <g fill="currentColor">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M13.5 2H.5m13 5H.5m13 5H.5"/>
+                            </g>
+                        </svg>
+                    </svg>
+                    <ul class="dropdown-menu">
+                        <li><a href="/download-catalog">Descargar catálogo</a></li>
+                        <li><a href="https://wa.me/1234567890">WhatsApp</a></li>
+                        <li><a href="https://wa.me/1234567890">Facebook</a></li>
+                        <li><a href="https://wa.me/1234567890">TikTok</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <img src="/img/logo.png" alt="Logotipo de H.V. Depositos de Calzado" width="180" height="auto">
+        <hr>
+        <svg id="cart-icon" width="78" height="78" viewBox="0 0 512 512" style="color:currentColor" xmlns="http://www.w3.org/2000/svg" class="h-full w-full" aria-label="Shopping Cart Icon">
+            <rect width="256" height="250" x="0" y="0" rx="30" fill="transparent" stroke="transparent" stroke-width="0" stroke-opacity="100%" paint-order="stroke"></rect>
+            <svg width="256px" height="256px" viewBox="0 0 1024 1024" fill="currentColor" x="128" y="128" role="img" style="display:inline-block;vertical-align:middle" xmlns="http://www.w3.org/2000/svg" aria-label="Cart Icon">
+                <g fill="currentColor">
+                    <path fill="currentColor" d="M922.9 701.9H327.4l29.9-60.9l496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 0 0-26.6-12.5l-632-2.1l-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 1 0 0 70.6h125.9L246 312.8l58.1 281.3l-74.8 122.1a34.96 34.96 0 0 0-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 0 0-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 0 0-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 0 0-35.4-35.2zM305.7 253l575.8 1.9l-56.4 315.8l-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6c0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 0 1-31.6 31.6zm325.1 0c-17.4 0-31.6-14.2-31.6-31.6c0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 0 1-31.6 31.6z"/>
+                </g>
+            </svg>
+        </svg>
+        
+        <!-- Modal para el carrito de compras -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-cart">&times;</span>
+                <h2>Carrito de Compras</h2>
+                <ul id="cart-items-modal">
+                    <!-- Los elementos del carrito serán agregados aquí por JavaScript -->
+                </ul>
+                <button id="checkout-btn-modal">Contactarme con un asesor</button>
+            </div>
+        </div>
+    </div>
+</div>   
+
+    <div class="container" id="container">
+        <div class="book-content">
+            <div class="book">
+                <div class="portada">
+                </div>
+                <div class="contraportada">
+                </div>
+            </div>
+
+            <div class="book">
+                <div class="face-front-1">
+                    <button class="btn btn-1" data-name="022" data-color="Negro - Fiusha">Agregar</button>
+                    <button class="btn btn-2" data-name="022" data-color="Negro - Rosa Pastel">Agregar</button>
+                    <button class="btn btn-3" data-name="022" data-color="Azul Marino - Rosa Pastel">Agregar</button>                    
+                </div>
+            </div>
+
+            <div class="book">
+                <div class="face-front-2">
+                    <button class="btn btn-4" data-name="022" data-color="Negro - Rojo">Agregar</button>
+                    <button class="btn btn-5" data-name="022" data-color="Negro - Blanco">Agregar</button>
+                    <button class="btn btn-6" data-name="022" data-color="Negro - Gris Oxford">Agregar</button>                    
+                </div>
+            </div>
+
+            <div class="book">
+                <div class="face-front-3">
+                    <button class="btn btn-7" data-name="021" data-color="Negro - Gris Oxford">Agregar</button>
+                    <button class="btn btn-8" data-name="021" data-color="Negro - Verde Menta">Agregar</button>
+                    <button class="btn btn-9" data-name="021" data-color="Negro - Rosa Pastel">Agregar</button>
+                    <button class="btn btn-10" data-name="021" data-color="Negro - Fisuha">Agregar</button>                    
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-4">
+                    <button class="btn btn-11" data-name="021" data-color="Negro - Rojo">Agregar</button>
+                    <button class="btn btn-12" data-name="021" data-color="Negro - Blanco">Agregar</button>
+                    <button class="btn btn-13" data-name="021" data-color="Negro - Azul Rey">Agregar</button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-5">
+                    <button class="btn btn-14" data-name="020" data-color="Negro - Fiusha">Agregar</button>
+                    <button class="btn btn-15" data-name="020" data-color="Rosa Maquillaje">Agregar</button>
+                    <button class="btn btn-16" data-name="020" data-color="Gris - Fiusha">Agregar</button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-6">
+                    <button class="btn btn-17" data-name="020" data-color="Rojo - Blanco">Agregar</button>
+                    <button class="btn btn-18" data-name="020" data-color="Negro - Blanco">Agregar</button>
+                    <button class="btn btn-19" data-name="020" data-color="Azul Marino - Blanco">Agregar</button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-7">
+                    <button class="btn btn-20" data-name="023" data-color="Blanco">Agregar</button>
+                    <button class="btn btn-21" data-name="023" data-color="Rosa Tornasol">Agregar</button>
+                    <button class="btn btn-22" data-name="023" data-color="Blanco Tornasol">Agregar</button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-8">
+                    <button class="btn btn-23" data-name="024" data-color="Blanco - Negro">Agregar</button>
+                    <button class="btn btn-24" data-name="024" data-color="Blanco - Azul Marino">Agregar</button>
+                    <button class="btn btn-25" data-name="024" data-color="Blanco - Tonos Pastel">Agregar</button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-9">
+                    <button class="btn btn-26" data-name="925" data-color="Blanco - Blanco">Agregar</button>
+                    <button class="btn btn-27" data-name="925" data-color="Blanco - Negro">Agregar</button>
+                    <button class="btn btn-28" data-name="925" data-color="Blanco - Tornasol">Agregar</button>
+                    <button class="btn btn-29" data-name="925" data-color="Blanco - Rojo">Agregar</button>
+                    <button class="btn btn-30" data-name="925" data-color="Negro - Negro">Agregar</button>                    
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-10">
+                    <button class="btn btn-31" data-name="900" data-color="Negro">Agregar</button>
+                    <button class="btn btn-32" data-name="900" data-color="Blanco">Agregar</button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-11">
+                    <!-- Vacio al ser una imagen solamente sin zapatos -->
+                </div>
+            </div>
+            <div class="book">
+                <div class="face-front-12">
+                    <button class="btn btn-33" data-name="06" data-color="Blanco - Tornasol">Agregar</button>
+                    <button class="btn btn-34" data-name="06" data-color="Blanco - Lila - Cielo">Agregar</button>
+                    <button class="btn btn-35" data-name="06" data-color="Blanco - Rosa">Agregar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+            
+            
+                <!-- Modal -->
+        <div id="size-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Seleccione la talla</h2>
+                <form id="size-form">
+                    <label for="shoe-size">Talla:</label>
+                    <select id="shoe-size" name="shoe-size">
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                    </select>
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <button type="submit">Agregar al carrito</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn">⟨</button>
+        <button class="nav-btn next-btn">⟩</button>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/Carrito.js"></script>
+
+    <div id="confirmation-message" class="hidden">
+        Producto agregado al carrito con éxito!
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Información de contacto</h3>
+                <p>Dirección: Calz Independencia Sur 15, San Juan de Dios, 44100 Guadalajara, Jal.</p>
+                <p>Teléfono: +52 33 19 74 95 27</p>
+                <p>Email: zapatoeconomico1@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/HVDepositosDeCalzado">Facebook<i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/hv_deposito_de_calzado/">Instagram<i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@depositodecalzado">TikTok<i class="fab fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Tienda en línea</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/HVDepositosDeCalzado">Como comprar<i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 H.V. Depósitos de Calzado. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
